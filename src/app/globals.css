@@ -5,11 +5,12 @@
   --foreground: #171717;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-bitcount-grid-single: var(--font-bitcount-grid-single);
+	--font-bitcount-single: var(--font-bitcount-single);
+	--font-bricolage-grotesque: var(--font-bricolage-grotesque);
 }
 
 @media (prefers-color-scheme: dark) {
