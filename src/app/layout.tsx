@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bitcountGridSingle.variable} ${bitcountSingle.variable} ${bricolageGrotesque.variable} antialiased`}
+        className={`${bitcountGridSingle.className} ${bitcountSingle.className} ${bricolageGrotesque.className} antialiased`}
       >
         {children}
       </body>
